@@ -2,13 +2,12 @@
 
 Summary:	Basic Octave implementation of mqtt toolkit
 Name:		octave-mqtt
-Version:	0.0.3
+Version:	0.0.4
 Release:	1
 License:	GPL-3.0-or-later
 Group:		Sciences/Mathematics
 Url:		https://packages.octave.org/mqtt/
-Source0:	https://downloads.sourceforge.net/project/octave-mqtt/v%{version}/octave-mqtt-%{version}.tar.gz
-
+Source0:        https://github.com/gnu-octave/octave-%{octpkg}/releases/download/release-%{version}/octave-%{octpkg}-%{version}.tar.gz
 BuildRequires:  octave-devel >= 4.0.0
 BuildRequires:  libpaho-mqtt-c-devel
 

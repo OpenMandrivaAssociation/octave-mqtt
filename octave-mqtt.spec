@@ -3,7 +3,7 @@
 Summary:	Basic Octave implementation of mqtt toolkit
 Name:		octave-mqtt
 Version:	0.0.5
-Release:	1
+Release:	2
 License:	GPL-3.0-or-later
 Group:		Sciences/Mathematics
 Url:		https://packages.octave.org/mqtt/
